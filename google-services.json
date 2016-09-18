@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "725651030032",
+    "firebase_url": "https://fir-firebase-3daeb.firebaseio.com",
+    "project_id": "fir-firebase-3daeb",
+    "storage_bucket": "fir-firebase-3daeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725651030032:android:f23b8bc7ea8e890b",
+        "android_client_info": {
+          "package_name": "com.app.tringuyen.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725651030032-65cm8ek14a0n744r143m3bok2m1535lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.tringuyen.myapplication",
+            "certificate_hash": "680198746BA7C1B2C0E90058492E2550F892C7AA"
+          }
+        },
+        {
+          "client_id": "725651030032-nmugspcbcuva47sbm1ihq6fbdlhhv11p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNXzi_UtG5ZdRxJaEeFe2VkKPNs2oJ2rM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725651030032-nmugspcbcuva47sbm1ihq6fbdlhhv11p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
