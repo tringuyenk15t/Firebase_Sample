@@ -37,7 +37,9 @@
         android:stackFromBottom="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_above="@+id/ll_texting">
+        android:layout_above="@+id/ll_texting"
+        android:clipChildren="false"
+        android:clipToPadding="false">
     </android.support.v7.widget.RecyclerView>
 
 </RelativeLayout>

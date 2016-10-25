@@ -7,7 +7,7 @@ import com.google.firebase.database.DataSnapshot;
  */
 public class ChatItem {
     private String message;
-    private boolean fromMe;
+//    private boolean fromMe;
 //    private String sendingDate;
 //    private String senderName;
 //    private String receiverName;
@@ -17,10 +17,10 @@ public class ChatItem {
 
     }
 
-    public ChatItem (String message, boolean fromMe)
+    public ChatItem (String message)
     {
         this.message = message;
-        this.fromMe = fromMe;
+//        this.fromMe = fromMe;
 //        this.sendingDate = date;
 //        this.senderName = senderName;
 //        this.receiverName = receiverName;

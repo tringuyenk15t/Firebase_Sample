@@ -45,14 +45,9 @@ public class MainActivity extends AppCompatActivity {
                 ChatItem chatItem = new ChatItem();
                 chatItem.setMessage(message);
 
-                items.add(chatItem);
-
-                editText.setText("");
-                adapter.notifyDataSetChanged();
-                recyclerView.scrollToPosition(adapter.getItemCount() - 1);
-
                 //save message to Firebase
                 FirebaseHelper.getInstance().saveChatItem(chatItem);
+                editText.setText("");
             }
         });
 
@@ -73,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-//                ChatItem chatItem = new ChatItem(dataSnapshot);
+
             }
 
             @Override
@@ -92,11 +87,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-//    private void initialItems(int quantity) {
-//        for (int i = 0; i < quantity; i++)
-//        {
-//            items.add("Item " + i);
-//        }
-//    }
 }
